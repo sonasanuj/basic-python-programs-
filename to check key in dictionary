@@ -1,0 +1,12 @@
+d = {}
+n = int(input("Enter number of items: "))
+for i in range(n):
+    key = input("Enter key: ")
+    value = input("Enter value: ")
+    d[key] = value
+
+k= input("Enter key to search: ")
+if k in d:
+    print("Key found! Value is:", d[k])
+else:
+    print("Key not found in the dictionary.")
